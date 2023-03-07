@@ -1,0 +1,70 @@
+header {
+  background-image: url("../images/Image 1.png");
+  max-width: 1770px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header h1 {
+  color: #fff;
+  font-size: 48px;
+  line-height: 26px;
+  font-weight: bold;
+  font-family: Josefin Sans, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header h3 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: Josefin Sans, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 6.82px;
+  left: 13px;
+  top: 50px;
+  width: 345px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header__title {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header__info {
+  color: #fff;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: Josefin Sans, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 6.82px;
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}

@@ -3,11 +3,109 @@
 @import "header";
 
 body {
-    min-height: 100%;
-    display: flex;
-    flex-basis: 100%;
-    width: 100%;
+    box-sizing: border-box;
+	display: grid;
+	place-content: center;
+	margin: 0;
+	min-height: 100vh;
+	background: #555;
+}
 
+
+
+.choose {
+    width: 1770px;
+    height: 685px;
+    background-image: url(../images/Rectangle\ 41444.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-start;
+    overflow: hidden;
+
+    h2 {
+        color: #fff;
+        font-size: 36px;
+        line-height: 26px;
+        font-family: Aleo, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        height: min-content;
+        flex-direction: column;
+    }
+    p {
+        height: min-content;
+        flex-direction: column;
+        color: #e8e8e8;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: Josefin Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        letter-spacing: 1.6px;
+    }
+    .choose_button{
+        width: 228px;
+        height: 63px;
+        align-items: flex-start;
+        overflow: hidden;
+        appearance: auto;
+
+    }
+
+}
+
+.workflows {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #333333;
+    flex-direction: column;
+    
+    p {
+        color: #e8e8e8;
+        font-size: 36px;
+        line-height: 26px;
+        font-family: Aleo, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        height: min-content;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .icon11 {
+        
+    }
+
+    .search{ 
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .select{
+        align-items: flex-start;
+        overflow: hidden;
+    }
+    .enjoy {
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+
+}
+
+.spain {
+    width: 1770px;
+    height: 1400px;
+    left: 15px;
+    top: 1857px;
+
+
+}
+
+.spain_1 {
+    background-image: url(../images/Rectangle\ 414\ 45.png);
+    height: 700px;
+}
+
+.spain_2 {
+    background-image: url(../images/Rectangle\ 41445.png);
+    height: 700px;
 }
 
 .tourist{
@@ -66,29 +164,3 @@ body {
         flex-direction: column;
     }
 }
-/*
-body {
-    display: grid;
-    grid-template-columns: 8em auto 8em;
-    grid-template-rows: 3em auto auto auto 3em;
-  }
-  
-  header {
-    grid-column: 1 / 4;
-  }
-  
-  nav {
-    grid-row: 2 / 5;
-    grid-column: 1;
-  }
-  
-  .choose {
-    grid-row: 2 / 5;
-    grid-column: 2;
-  }
-  
-  footer {
-    grid-column: 1 / 4;
-    grid-row: 5;
-  }
-  */
