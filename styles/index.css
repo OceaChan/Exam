@@ -370,6 +370,15 @@ header__button {
       -ms-flex-align: start;
           align-items: flex-start;
   overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+button a:hover {
+  cursor: pointer;
 }
 
 input {
@@ -411,6 +420,45 @@ button {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+}
+
+p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+}
+
+i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body {
@@ -457,6 +505,10 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: foot;
+}
+
+button a:hover {
+  cursor: pointer;
 }
 
 .choose {

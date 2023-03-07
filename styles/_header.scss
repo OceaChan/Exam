@@ -59,8 +59,17 @@ header {
         max-height: 63px;
         align-items: flex-start;
         overflow: hidden;
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
 
     }
+}
+
+button a:hover {
+    cursor: pointer;
+
 }
 
 input {
@@ -85,4 +94,30 @@ button {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+p {
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+text-align: center;
+letter-spacing: 2.8px;
+
+color: #FFFFFF;
+
+}
+i {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.scroll {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
 }
