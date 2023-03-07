@@ -217,23 +217,17 @@ nav {
   }
 }
 footer {
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 13px;
+  top: 3986px;
+  width: 1773px;
   height: 271px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: end;
-  margin-left: 0px;
-  margin-right: 0px;
   background-color: #232323;
 }
 
@@ -247,26 +241,19 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 20px;
+  margin-top: 29px;
 }
 
 .footer__li {
-  font-family: "Source Sans Pro", normal;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
-  /* identical to box height */
-  letter-spacing: -0.346154px;
-  color: #64D810;
   text-decoration: none;
 }
 
@@ -276,8 +263,6 @@ header {
 }
 
 body {
-  margin: 0;
-  padding: 0;
   min-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,20 +274,22 @@ body {
 
 .tourist {
   background-image: url("../images/Rectangle 4142 1.png");
-  width: 1770px;
-  height: 731px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .tourist h2 {
   color: #fff;
   font-size: 36px;
   line-height: 26px;
   font-family: Aleo, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  left: 690px;
-  top: 128px;
-  width: 390px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
@@ -310,10 +297,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+}
+.tourist .sam {
+  width: 668px;
+  height: 287px;
+  overflow: visible;
+  background-color: #333333;
+}
+.tourist .sam_photo {
+  width: 445px;
+  height: 284px;
 }
 .tourist p {
   display: block;
